@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif ;
+}
+
+html{
+    font-size: 60.5%;
+}
+
+.body__logo{
+    width: 350px;
+}
+
+body{
+    background-image: url(../img/fondo.png);
+    background-attachment:fixed;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    line-height: 3rem;
+	font-size: 2rem;
+    margin: 20px;
+}
+
+h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+	font-size: 1.6rem;
+    background-color: rgba(128, 128, 128, 0.993);
+}
+
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+    nav ul li a{
+        font-size: 2rem;
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+        font-weight:bold;
+        margin-left: 20px;
+    }
+
+    nav ul li a:hover {
+        color: rgb(13, 13, 78);
+        font-weight: 500;
+    }
+
+    .textCenter{
+        text-align: justify;
+        font-size: 2.5rem;
+
+    }
+
+h1, h2{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color: rgb(34, 34, 71);
+}
+
+h4{
+    color: rgb(30, 65, 95);
+    font-size: 2rem;
+}
+
+
+.mision__titulo--xxl{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+    background-color: rgb(65, 75, 119);
+    padding-left: 15px;
+}
+
+.mision__titulo--xl{
+    text-align:left;
+    font-size: 35px;
+    margin-top: 15px;
+    background-color: rgba(255, 68, 0, 0.726);
+}
+
+.scan__text--md{
+    text-align: left;
+    font-size: 25px;
+
+}
+
+.QR__img{
+    width: 200px;
+}
+
+.pie__social{
+    width: 40px;
+}
+
+.pie__social--md{
+    width: 70px;
+
+
+}
+
+.botonera {
+    background-color: rgba(235, 163, 96, 0.5);
+    position: sticky;
+    top: 0;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .botonera ul{
+        display: flex;
+    }
+ 
+    .botonera ul li{
+        list-style: none;
+        margin-right: 30px;
+    }
+
+        .botonera ul li a{
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: rgb(33, 32, 80);
+        }
+
+
+@media (min-width: 1920px){
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: 20vw 70vw 10vw;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nav nav nav" 
+		"header header header"  
+		"footer footer footer";
+}}
+
+
